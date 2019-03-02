@@ -1,0 +1,56 @@
+*{
+    font-family: 'Raleway', sans-serif; 
+}
+
+.panel-headling{
+    padding: 50px 0px;
+    text-align: center;
+    font-weight: 100;    
+    background-color: azure;
+    font-size: 72px;
+    margin: 5px 0 10px 0;
+}
+
+.input-group-addon{
+    cursor: pointer;
+}
+
+.input-group-addon:hover{
+    background: #cccccc;
+    transition: 0.2s;
+    color: #ffffff;
+}
+
+.list-group{
+    margin: 10px 0;
+}
+
+.list-group-item{
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+    margin: 0;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.list-group-item:hover{
+    background: #f2f2f2;
+}
+
+.list-group-item.checked{
+    background: #e6ffe6;
+    text-decoration: line-through;
+}
+
+#checked:hover{
+    background: #ccffcc;
+}
+.close {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
